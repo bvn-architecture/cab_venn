@@ -1,0 +1,20 @@
+{
+  "name": "tagscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-sb": "^0.11.1",
+    "azure-storage": "^2.10.3",
+    "dotenv": "^8.2.0",
+    "playwright": "^0.11.1"
+  },
+  "devDependencies": {
+    "@types/azure-sb": "0.0.37"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "name": "Launch ts Program ",
+      "sourceMaps": true,
+      "program": "${workspaceFolder}\\scraper.js",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
+  ]
+}
